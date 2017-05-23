@@ -1,6 +1,6 @@
 .body {
     margin: 0;
-    background-color: var(--background_color);
+    background-color: var(--background);
     font-family: var(--text_family_default);
     color: var(--text_color_main);
 }

@@ -1,0 +1,52 @@
+.action {
+    position: relative;
+    padding-left: 13px;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--text_color_faded);
+    text-decoration: none;
+}
+
+    .action::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 3px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto 100%;
+    }
+
+    .action_id_date::before {
+        top: 2px;
+        background-image: url("../vectors/calendar.svg");
+    }
+
+    .action_id_category::before {
+        background-image: url("../vectors/folder.svg");
+    }
+
+    .action_id_tag::before {
+        background-image: url("../vectors/tag.svg");
+    }
+
+
+    .action__label {
+        border-bottom: 1px solid transparent;
+        white-space: nowrap;
+    }
+
+    .action:hover .action__label {
+        border-bottom-color: inherit;
+    }
+
+
+.action_static {
+
+}
+    .action_static:hover .action__label {
+        border-bottom-color: transparent;
+    }

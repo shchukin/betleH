@@ -4,14 +4,25 @@
     --brand-white:  #FFFFFF;
     --brand-slate:  #F1F1F1;
     --brand-silver: #F7F7F7;
+    --brand-smoke:  #707070;
     --brand-grey:   #6E6E6E;
     --brand-black:  #333333;
+    --brand-blue:   #180BA9;
 
     --text_family_default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --text_family_heading: Georgia, Times, "Times New Roman", serif;
     --text_color_main: var(--brand-black);
-    --text_color_faded: var(--brand-grey);
+    --text_color_heading: var(--brand-black);
+    --text_color_faded: var(--brand-smoke);
 
-    --background_color: var(--brand-slate);
+    --link_color: var(--brand-blue);
+
+    --background: var(--brand-slate);
+
+    --content_background: var(--brand-white);
+
+    --inner-background: var(--brand-silver);
+
+    --image-fallback: var(--brand-grey);
 }
 /* stylelint-enable declaration-colon-space-after */

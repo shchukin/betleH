@@ -1,0 +1,99 @@
+.text {
+
+}
+
+
+.text img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    background-color: var(--image-fallback);
+}
+
+.text figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text figcaption {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--text_color_faded);
+}
+    .text figcaption a {
+        color: var(--text_color_main);
+    }
+
+
+.text a {
+    text-decoration: none;
+    color: var(--link_color);
+    border-bottom: 1px solid;
+}
+
+.text a:hover {
+    text-decoration: none;
+    border-bottom-color: transparent;
+}
+
+.text h2 {
+    font-family: var(--text_family_heading);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--text_color_heading);
+}
+
+.text h3 {
+    font-family: var(--text_family_heading);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text_color_heading);
+}
+
+.text p,
+.text hr,
+.text ul,
+.text ol,
+.text dl,
+.text h2,
+.text h3,
+.text figure,
+.text blockquote {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.text p:first-child,
+.text hr:first-child,
+.text ul:first-child,
+.text ol:first-child,
+.text dl:first-child,
+.text h2:first-child,
+.text h3:first-child,
+.text figure:first-child,
+.text blockquote:first-child {
+    margin-top: 0;
+}
+
+.text p:last-child,
+.text hr:last-child,
+.text ul:last-child,
+.text ol:last-child,
+.text dl:last-child,
+.text h2:last-child,
+.text h3:last-child,
+.text figure:last-child,
+.text blockquote:last-child {
+    margin-bottom: 0;
+}
