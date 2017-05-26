@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: var(--content_background);
+    background-color: var(--panel-background);
 }
     .sidebar__state {
 
@@ -7,7 +7,7 @@
 
     .sidebar__header {
         position: relative;
-        padding: var(--padding-double);
+        padding: var(--padding);
         border-bottom: 1px solid var(--separator);
     }
         .sidebar__branding {
@@ -101,7 +101,7 @@
 
         .sidebar__burger {
             position: absolute;
-            right: var(--padding-double);
+            right: var(--padding);
             top: 50%;
             display: block !important;
             width: 42px;
@@ -146,16 +146,15 @@
         }
 
     .sidebar__region {
-        padding: var(--padding-double);
+        padding: var(--padding);
         border-bottom: 1px solid var(--separator);
     }
-    
+
     @media (min-width: 960px) {
         .sidebar__region {
             border-bottom: none;
         }
     }
-    
         .sidebar__section {
 
         }

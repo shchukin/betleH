@@ -21,8 +21,6 @@
 
     --background: var(--brand-slate);
 
-    --content_background: var(--brand-white);
-
     --inner-background: var(--brand-silver);
 
     --separator: var(--brand-light);
@@ -30,7 +28,11 @@
 
     --image-fallback: var(--brand-grey);
 
-    --padding-default: 3.8461%;
-    --padding-double: 7.6923%;
+    --padding: 7.6923%;
+
+    /* белые плашки */
+    --panel-background: var(--brand-white);
+    --panel-border: #E6E6E6;
+    --panel-shadow: #EFEFEF;
 }
 /* stylelint-enable declaration-colon-space-after */

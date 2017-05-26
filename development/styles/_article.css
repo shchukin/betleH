@@ -1,12 +1,5 @@
 .article {
-    background-color: var(--content_background);
-}
 
-@media (min-width: 620px) {
-    .article {
-        border: 1px solid #e6e6e6;
-        box-shadow: 0 1px 1px #efefef;
-    }
 }
     .article__preview {
         width: 100%;
@@ -18,7 +11,7 @@
     .article__body {
         border-top: 8px solid transparent; /* extra padding on top */
         border-bottom: 8px solid transparent; /* extra padding on top */
-        padding: var(--padding-double);
+        padding: var(--padding);
     }
         .article__heading {
             margin-top: 0;
@@ -57,7 +50,7 @@
         }
 
     .article__footer {
-        padding: var(--padding-default) var(--padding-double);
+        padding: calc( var(--padding) / 2 ) var(--padding);
         background-color: var(--inner-background);
         font-size: 12px;
         line-height: 18px;
