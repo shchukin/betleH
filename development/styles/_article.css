@@ -9,9 +9,9 @@
     }
 
     .article__body {
-        border-top: 8px solid transparent; /* extra padding on top */
-        border-bottom: 8px solid transparent; /* extra padding on top */
-        padding: var(--padding);
+        /*border-top: 8px solid transparent; !* extra padding on top *!*/
+        /*border-bottom: 8px solid transparent; !* extra padding on top *!*/
+        padding: var(--padding-inner);
     }
         .article__heading {
             margin-top: 0;
@@ -50,7 +50,7 @@
         }
 
     .article__footer {
-        padding: calc( var(--padding) / 2 ) var(--padding);
+        padding: calc( var(--padding-inner) / 2 ) var(--padding-inner);
         background-color: var(--inner-background);
         font-size: 12px;
         line-height: 18px;
