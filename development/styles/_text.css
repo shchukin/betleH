@@ -4,12 +4,26 @@
     color: var(--text_color_main);
 }
 
-@media (min-width: 740px) and (max-width: 959px) {
+@media (min-width: 620px) and (max-width: 739px) {
+    .text {
+        /* same */
+    }
+}
+
+@media (min-width: 740px) and (max-width: 879px) {
     .text {
         font-size: 17px;
         line-height: 28px;
     }
 }
+
+@media (min-width: 880px) and (max-width: 959px) {
+    .text {
+        font-size: 19px;
+        line-height: 32px;
+    }
+}
+
 
 
 .text img {
@@ -33,12 +47,31 @@
     color: var(--text_color_faded);
 }
 
-@media (min-width: 740px) and (max-width: 959px) {
+@media (min-width: 620px) and (max-width: 739px) {
     .text figcaption {
+        /* same */
+    }
+}
+
+@media (min-width: 740px) and (max-width: 879px) {
+    .text figcaption {
+        padding-top: 7px;
+        padding-bottom: 7px;
         font-size: 14px;
         line-height: 21px;
     }
 }
+
+@media (min-width: 880px) and (max-width: 959px) {
+    .text figcaption {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
 
     .text figcaption a {
         color: var(--text_color_main);
@@ -67,10 +100,27 @@
     color: var(--text_color_heading);
 }
 
-@media (min-width: 740px) and (max-width: 959px) {
+@media (min-width: 620px) and (max-width: 739px) {
     .text h2 {
+        /* same */
+    }
+}
+
+@media (min-width: 740px) and (max-width: 879px) {
+    .text h2 {
+        margin-top: 56px;
+        margin-bottom: 28px;
         font-size: 29px;
         line-height: 35px;
+    }
+}
+
+@media (min-width: 880px) and (max-width: 959px) {
+    .text h2 {
+        margin-top: 64px;
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 40px;
     }
 }
 
@@ -79,19 +129,37 @@
     font-family: var(--text_family_heading);
     font-weight: bold;
     font-style: italic;
-    margin-top: 36px;
-    margin-bottom: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 18px;
     line-height: 24px;
     color: var(--text_color_heading);
 }
 
-@media (min-width: 740px) and (max-width: 959px) {
+@media (min-width: 620px) and (max-width: 739px) {
     .text h3 {
+        /* same */
+    }
+}
+
+@media (min-width: 740px) and (max-width: 879px) {
+    .text h3 {
+        margin-top: 46px;
+        margin-bottom: 23px;
         font-size: 24px;
         line-height: 28px;
     }
 }
+
+@media (min-width: 880px) and (max-width: 959px) {
+    .text h3 {
+        margin-top: 52px;
+        margin-bottom: 26px;
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
+
 
 
 .text p,

@@ -2,7 +2,8 @@
 :root {
 
     --brand-white:  #FFFFFF;
-    --brand-light:  #EAEAEA;
+    --brand-light:  #EAEAEA; /* really needed? for separators? */
+    /* should here be one more for separator hover? */
     --brand-slate:  #F1F1F1;
     --brand-silver: #F7F7F7;
     --brand-smoke:  #707070;

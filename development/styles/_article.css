@@ -31,11 +31,23 @@
             color: var(--text_color_heading);
         }
 
+        @media (min-width: 620px) and (max-width: 739px) {
+            .article__heading {
+                /* same */
+            }
+        }
 
-        @media (min-width: 740px) and (max-width: 959px) {
+        @media (min-width: 740px) and (max-width: 879px) {
             .article__heading {
                 font-size: 35px;
                 line-height: 42px;
+            }
+        }
+
+        @media (min-width: 880px) and (max-width: 959px) {
+            .article__heading {
+                font-size: 39px;
+                line-height: 48px;
             }
         }
 
