@@ -1,5 +1,12 @@
 .article {
+    background-color: var(--content_background);
+}
 
+@media (min-width: 620px) {
+    .article {
+        border: 1px solid #e6e6e6;
+        box-shadow: 0 1px 1px #efefef;
+    }
 }
     .article__preview {
         width: 100%;
@@ -9,6 +16,8 @@
     }
 
     .article__body {
+        border-top: 8px solid transparent; /* extra padding on top */
+        border-bottom: 8px solid transparent; /* extra padding on top */
         padding: var(--padding-double);
     }
         .article__heading {

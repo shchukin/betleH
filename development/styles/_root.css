@@ -2,6 +2,7 @@
 :root {
 
     --brand-white:  #FFFFFF;
+    --brand-light:  #EAEAEA;
     --brand-slate:  #F1F1F1;
     --brand-silver: #F7F7F7;
     --brand-smoke:  #707070;
@@ -22,6 +23,9 @@
     --content_background: var(--brand-white);
 
     --inner-background: var(--brand-silver);
+
+    --separator: var(--brand-light);
+    --separator-hover: #c1c1c1;
 
     --image-fallback: var(--brand-grey);
 

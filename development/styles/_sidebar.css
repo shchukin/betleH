@@ -1,0 +1,87 @@
+.sidebar {
+    background-color: var(--content_background);
+}
+    .sidebar__state {
+
+    }
+
+    .sidebar__header {
+        position: relative;
+        padding: var(--padding-double);
+        border-bottom: 1px solid var(--separator);
+    }
+        .sidebar__branding {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 0; /* in case of <h1> */
+        }
+            .sidebar__logo {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: -6px;
+                margin-bottom: -6px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 30px;
+                color: var(--text_color_heading);
+                text-decoration: none;
+            }
+
+            .sidebar__slogan {
+                display: none;
+            }
+
+        .sidebar__burger {
+            position: absolute;
+            right: var(--padding-double);
+            top: 50%;
+            display: block !important;
+            width: 42px;
+            height: 42px;
+            margin-top: -21px;
+            background-image: url("../vectors/burger-default.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 40px 40px;
+            border: 1px solid var(--separator);
+            padding: 0;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .sidebar__burger:hover {
+            border-color: var(--separator-hover);
+        }
+        
+    .sidebar__region {
+        padding: var(--padding-double);
+        border-bottom: 1px solid var(--separator);
+    }
+    
+    @media (min-width: 960px) {
+        .sidebar__region {
+            border-bottom: none;
+        }
+    }
+    
+        .sidebar__section {
+
+        }
+
+
+.sidebar__state:checked ~ .sidebar__header .sidebar__burger {
+    background-image: url("../vectors/burger-close.svg");
+    border-color: var(--separator-hover);
+}
+
+.sidebar__state:not(:checked) ~ .sidebar__region {
+    display: none;
+}
+
+.sidebar__state:checked ~ .sidebar__region {
+    display: block;
+}
