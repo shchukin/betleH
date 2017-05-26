@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: var(--panel-background);
+
 }
     .sidebar__state {
 
@@ -8,8 +8,17 @@
     .sidebar__header {
         position: relative;
         padding: var(--padding);
+        background-color: var(--panel-background);
         border-bottom: 1px solid var(--separator);
     }
+    
+    @media (min-width: 620px) and (max-width: 959px) {
+        .sidebar__header {
+            border-bottom-color: var(--panel-border);
+            box-shadow: 0 1px 0 0 var(--panel-shadow);
+        }
+    }
+    
         .sidebar__branding {
             margin-top: 0;
             margin-bottom: 0;
@@ -147,8 +156,21 @@
 
     .sidebar__region {
         padding: var(--padding);
+        background-color: var(--panel-background);
         border-bottom: 1px solid var(--separator);
     }
+
+    @media (min-width: 620px) and (max-width: 959px) {
+        .sidebar__region {
+            margin-top: var(--padding);
+            margin-left: var(--padding);
+            margin-right: var(--padding);
+            border: 1px solid var(--panel-border);
+            box-shadow: 0 0 0 1px var(--panel-shadow);
+            padding: var(--padding-inner);
+        }
+    }
+
 
     @media (min-width: 960px) {
         .sidebar__region {
