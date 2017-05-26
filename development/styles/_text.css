@@ -1,5 +1,14 @@
 .text {
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--text_color_main);
+}
 
+@media (min-width: 740px) and (max-width: 959px) {
+    .text {
+        font-size: 17px;
+        line-height: 28px;
+    }
 }
 
 
@@ -23,6 +32,14 @@
     line-height: 18px;
     color: var(--text_color_faded);
 }
+
+@media (min-width: 740px) and (max-width: 959px) {
+    .text figcaption {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
     .text figcaption a {
         color: var(--text_color_main);
     }
@@ -50,6 +67,14 @@
     color: var(--text_color_heading);
 }
 
+@media (min-width: 740px) and (max-width: 959px) {
+    .text h2 {
+        font-size: 29px;
+        line-height: 35px;
+    }
+}
+
+
 .text h3 {
     font-family: var(--text_family_heading);
     font-weight: bold;
@@ -60,6 +85,14 @@
     line-height: 24px;
     color: var(--text_color_heading);
 }
+
+@media (min-width: 740px) and (max-width: 959px) {
+    .text h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
 
 .text p,
 .text hr,
@@ -95,3 +128,5 @@
 .text blockquote:last-child {
     margin-bottom: 0;
 }
+
+

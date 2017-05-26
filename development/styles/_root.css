@@ -24,5 +24,8 @@
     --inner-background: var(--brand-silver);
 
     --image-fallback: var(--brand-grey);
+
+    --padding-default: 3.8461%;
+    --padding-double: 7.6923%;
 }
 /* stylelint-enable declaration-colon-space-after */

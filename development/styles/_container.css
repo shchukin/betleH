@@ -1,5 +1,10 @@
 .container {
-    max-width: 826px;
-    margin-left: auto;
-    margin-right: auto;
+
+}
+
+@media (min-width: 620px) {
+    .container {
+        margin-left: var(--padding-double);
+        margin-right: var(--padding-double);
+    }
 }

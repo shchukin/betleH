@@ -50,3 +50,16 @@
     .action_static:hover .action__label {
         border-bottom-color: transparent;
     }
+
+
+@media (min-width: 740px) and (max-width: 959px) {
+    .action {
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .action::before {
+        width: 12px;
+        height: 12px;
+    }
+}
