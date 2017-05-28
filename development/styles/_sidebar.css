@@ -76,7 +76,7 @@
                 font-weight: normal;
                 font-size: 12px;
                 line-height: 18px;
-                color: var(--text_color_faded);
+                color: var(--text_color_note);
             }
 
             @media (min-width: 620px) {

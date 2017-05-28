@@ -15,7 +15,8 @@
     --text_family_heading: Georgia, Times, "Times New Roman", serif;
     --text_color_main: var(--brand-black);
     --text_color_heading: var(--brand-black);
-    --text_color_faded: var(--brand-smoke);
+    --text_color_note: var(--brand-smoke);
+    --text_color_faded: var(--brand-grey);
 
     --link_color: var(--brand-blue);
 
