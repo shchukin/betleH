@@ -1,0 +1,3 @@
+.site {
+    background-color: var(--brand-white); /* main background to see through bouncing on macOS */
+}
