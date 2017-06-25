@@ -60,8 +60,23 @@
 
 @media (min-width: 960px) {
     .content {
-        width: var(--container);
+        width: calc(var(--container) + 2px); /* 2px is because borders inside */
         margin-left: auto;
         margin-right: auto;
+        padding-top: 60px;
+        padding-bottom: var(--padding-desktop);
+    }
+
+    .content__section {
+        margin-top: var(--padding-desktop);
+    }
+
+    .content__section:first-child {
+        margin-top: 0;
+    }
+
+    .content__section_supplementary {
+        margin-left: var(--padding-desktop);
+        margin-right: var(--padding-desktop);
     }
 }

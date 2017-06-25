@@ -23,6 +23,8 @@
         }
 
             .header__branding {
+                display: inline-block;
+                vertical-align: top;
                 margin-top: 0;
                 margin-bottom: 0;
                 padding-top: 2px;
@@ -205,6 +207,7 @@
 
 @media (min-width: 960px) {
     .header {
+        height: calc(var(--padding-desktop) + 1px);
         background-color: var(--panel-background);
         border-bottom: 1px solid var(--panel-border);
         box-shadow: 0 1px 0 0 var(--panel-shadow);
@@ -225,14 +228,21 @@
                 background-color: transparent;
             }
                 .header__branding {
-
+                    padding-top: 8px;
                 }
                     .header__logo {
-
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        font-size: 29px;
+                        line-height: 34px;
                     }
 
                     .header__slogan {
-
+                        margin-top: 4px;
+                        font-size: 14px;
+                        line-height: 16px;
                     }
 
                 .header__burger {
@@ -246,13 +256,15 @@
                 .header__lang {
                     position: absolute;
                     right: 0;
-                    top: 0;
+                    top: 23px;
                 }
 
                 .header__search {
                     position: absolute;
                     left: 50%;
-                    top: 0;
+                    top: 23px;
                     margin-top: 0;
+                    width: 240px;
+                    margin-left: -120px;
                 }
 }
