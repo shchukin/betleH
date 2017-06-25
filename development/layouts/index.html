@@ -9,35 +9,43 @@
     </head>
     <body class="body">
 
-        <div class="sidebar">
-            <input class="sidebar__state" type="checkbox" id="header-state" style="display: none;" checked>
-            <header class="sidebar__header">
-                <h1 class="sidebar__branding">
-                    <a class="sidebar__logo" href="#">nuqneH</a>
-                    <span class="visuallyhidden">—</span>
-                    <span class="sidebar__slogan">I travel. I play. I develop.</span>
-                </h1>
-                <label class="sidebar__burger" for="header-state" style="display: none;">
-                    Toggle header
-                </label>
-            </header>
-            <div class="sidebar__region">
-                <div class="sidebar__section">
-                    <div class="language">
-                        <span class="visuallyhidden">Language:</span>
-                        <a class="language__item language__item_id_en language__item_current" href="#">English</a>
-                        <a class="language__item language__item_id_ru" href="#">Russian</a>
+        <header class="header">
+            <div class="header__container">
+                <input class="header__state" type="checkbox" id="header-state" style="display: none;">
+                <div class="header__frame">
+                    <h1 class="header__branding">
+                        <a class="header__logo" href="#">nuqneH</a>
+                        <span class="visuallyhidden">—</span>
+                        <span class="header__slogan">I travel. I play. I develop.</span>
+                    </h1>
+                    <label class="header__burger" for="header-state" style="display: none;">
+                        Toggle header
+                    </label>
+                </div>
+                <div class="header__addition">
+                    <div class="header__lang">
+                        <div class="language">
+                            <span class="visuallyhidden">Language:</span>
+                            <a class="language__item language__item_id_en language__item_current" href="#">English</a>
+                            <a class="language__item language__item_id_ru" href="#">Russian</a>
+                        </div>
+                    </div>
+                    <div class="header__search">
+                        <form class="search">
+                            <span class="visuallyhidden">Search:</span>
+                            <input class="search__field" type="text" placeholder="Search …">
+                            <button class="search__submit" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <div class="sidebar__section">
-                    <form class="search">
-                        <span class="visuallyhidden">Search:</span>
-                        <input class="search__field" type="text" placeholder="Search …">
-                        <button class="search__submit" type="submit">Search</button>
-                    </form>
-                </div>
             </div>
-        </div>
+        </header>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
 
         <div class="content">
             <div class="content__section">

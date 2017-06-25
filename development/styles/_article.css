@@ -57,7 +57,7 @@
             }
         }
 
-        @media (min-width: 880px) and (max-width: 959px) {
+        @media (min-width: 880px) {
             .article__heading {
                 font-size: 39px;
                 line-height: 48px;
