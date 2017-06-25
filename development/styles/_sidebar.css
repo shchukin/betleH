@@ -178,7 +178,11 @@
         }
     }
         .sidebar__section {
+            margin-top: var(--padding-inner);
+        }
 
+        .sidebar__section:first-child {
+            margin-top: 0;
         }
 
 

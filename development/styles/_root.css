@@ -24,6 +24,8 @@
 
     --inner-background: var(--brand-silver);
 
+    --flag-shadow: var(--brand-silver);
+
     --separator: var(--brand-light);
     --separator-hover: #c1c1c1;
 
