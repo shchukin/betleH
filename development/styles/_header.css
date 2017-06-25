@@ -268,3 +268,10 @@
                     margin-left: -120px;
                 }
 }
+
+
+@media (min-width: 1240px) {
+    .header__container {
+        width: var(--container-larger);
+    }
+}
