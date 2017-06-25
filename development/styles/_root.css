@@ -24,8 +24,6 @@
 
     --inner-background: var(--brand-silver);
 
-    --flag-shadow: var(--brand-silver);
-
     --separator: var(--brand-light);
     --separator-hover: #c1c1c1;
 
@@ -38,5 +36,8 @@
     --panel-background: var(--brand-white);
     --panel-border: #E6E6E6;
     --panel-shadow: #EFEFEF;
+
+
+    --flag-shadow: #EFEFEF;
 }
 /* stylelint-enable declaration-colon-space-after */
